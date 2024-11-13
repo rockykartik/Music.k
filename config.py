@@ -9,18 +9,18 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "16457832"))
-API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
+API_ID = int(getenv("API_ID", "21065089"))
+API_HASH = getenv("API_HASH", "63c7a41e907fa28e88a620eb0338ddbe")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7638229482:AAHmvpFaVQzInvrGsBMlotrHmpnzQwwPhAk")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","@UTTAM470")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@ll_Crazy_munda_ll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "BABY_MUSIC09_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "MUSIC_SAKSHI_BOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "╼⃝𖠁 𝐁ʌʙʏ ꭙ 𝐌ᴜsɪᴄ 𖠁⃝╾")
+BOT_NAME = getenv("BOT_NAME" , "🌸𝆺𝅥⃝🦋 ⃪ͥ͢ ᷟ•× 𝐒𝐀𝐊𝐒𝐇𝐈 °‌❤️‍🩹✘ᴅ 🕊")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "╼⃝𖠁 𝐁ʌʙʏ ꭙ 𝐌ᴜsɪᴄ 𖠁⃝╾")
+ASSUSERNAME = getenv("ASSUSERNAME" , "🌸𝆺𝅥⃝🦋 ⃪ͥ͢ ᷟ•× 𝐒𝐀𝐊𝐒𝐇𝐈 °‌❤️‍🩹✘ᴅ 🕊")
 
 API_KEY = "abc921ff654bcf7b3faff8f775d781d8d27d32bfd02d6692eea30249ba781c8b"  # अपना API key यहाँ डालें
 # ---------------------------------------------------------
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002043570167"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002218982582"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "7131351568"))
+OWNER_ID = int(getenv("OWNER_ID", "6735840265"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -70,10 +70,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BABY09_WORLD")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+OL6jdTL7JAJjYzVl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SAKSHI_UPDATES")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SAKSHI_SUPPORT")
 SOURCE = getenv("SOURCE", "https://github.com/BABY-MUSIC/BABYXMUSIC")
-CHAT = getenv("CHAT", "https://t.me/chattinghuboo")
+CHAT = getenv("CHAT", "https://t.me/tg_friends_hub")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -119,7 +119,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQCZzqEAUvJwTOLhpzb9x_GBT9LPTai1q8d_9YKuGw38KKFaxJ0dwJSwaZBEs-nAJeZzpJJmNosjfdaOX3wQUPnFpH0lU0YzKtjPBNTlmb__dNVMO4SpX9quQGSkYYy6WR7At_ZWcJ0slcKRIPqPnDdxw_x5qtgKJTEaC85p0GyiVIE6qf7BBDV96CjeaTC6nhc8_Es0jyBvzDnmqyd4sSS3g4jn9d3VPIiIFoUEdY7PpiTtw050_sz0ArAnDN1Hi-qeLCmPKTjJUcM4LZ8rZwrz1U25aH9msNhGMO5JPBV39b3O02Nl5kgalkfwhjZt9LAg8OzLFAE-DQH9wAAAAGCXgzzAA")
+STRING1 = getenv("STRING_SESSION", "BACZzqEAi9l0Y78kzPsaFvFTmb1k2retdBnvMcybStreHwdKlTuzoTzG4Jc-KupyByLZZGH7Qtm4ESco1D_nI5Omh6O6ncsBzAxAYGB237WCvcT0xiop3H2Vdfein3LnyazWZAyMHHVmUzbjj_dvL3FeTIwO2KKX_YHzcroEmP9EUz7jw57bh6cFm3YZFaDdPCz76P8222tvSDKSqD0WcI7zwb-Ri4cSkv22MAXKo4KtfdsKJbG_9YRNK-FYyI0cBc9OllJKCwcW74w5riJg8KO-zIjJ6bZ8YInWVr1JGYfhMHWmE2K-JNitV8qTD5MaBE3BEEx2etlDioytevw8Zv2B0wSbfwAAAAHIEVb0AA")
 BANNED_USERS = filters.user()
 adminlist = {}
 lyrical = {}
