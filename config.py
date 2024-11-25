@@ -9,26 +9,29 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "16457832"))
-API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
+API_ID = int(getenv("API_ID", "24280518"))
+API_HASH = getenv("API_HASH", "ec5793b4bef624381b19ad2b6fd082f8")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7453423431jkC_P2nsS5UNb9BOErO9-2bovVIfWiM")
+BOT_TOKEN = getenv("BOT_TOKEN", "5ORfUyP74")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","@UTTAM470")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@introvertt_i")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "BABY_MUSIC09_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Friendship143_Robot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "╼⃝𖠁 𝐁ʌʙʏ ꭙ 𝐌ᴜsɪᴄ 𖠁⃝╾")
+BOT_NAME = getenv("BOT_NAME" , "╼⃝𖠁 𝘀𝗿𝗲𝗲 ꭙ 𝗺𝘂𝘀𝗶𝗰 𖠁⃝╾")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "╼⃝𖠁 𝐁ʌʙʏ ꭙ 𝐌ᴜsɪᴄ 𖠁⃝╾")
+ASSUSERNAME = getenv("ASSUSERNAME" , "╼⃝𖠁 𝘀𝗿𝗲𝗲 ꭙ 𝗺𝘂𝘀𝗶𝗰 𖠁⃝╾")
+# ---------------------------------------------------------
+
+
+#---------------------------------------------------------------
+#---------------------------------------------------------------
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://khushijha5544:karan2020@krishnauff.ndruqrp.mongodb.net/?retryWrites=true&w=majority")
 
 API_KEY = "abc921ff654bcf7b3faff8f775d781d27d32bfd02d6692eea30249ba781c8b"  # अपना API key यहाँ डालें
 # ---------------------------------------------------------
 
 
-#---------------------------------------------------------------
-#---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -37,10 +40,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002043570167"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002036406321"))
 # ----------------------------------------------------------------
+OWNER_ID = int(getenv("OWNER_ID", "5605603670"))
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "7131351568"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -55,7 +58,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/BABY-MUSIC/SPOTIFY_MUSIC",
+    "https://github.com/rockykartik/Music.k",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -69,10 +72,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BABY09_WORLD")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+OL6jdTL7JAJjYzVl")
-SOURCE = getenv("SOURCE", "https://github.com/BABY-MUSIC/SPOTIFY_MUSIC")
-CHAT = getenv("CHAT", "https://t.me/chattinghuboo")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+NVwOR6L_jik5NjI9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+jtR3ftQNC9xiNWM9")
+SOURCE = getenv("SOURCE", "https://t.me/+NVwOR6L_jik5NjI9")
+CHAT = getenv("CHAT", "https://t.me/+jtR3ftQNC9xiNWM9")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -118,7 +121,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "itn58e84hne-1y7It0ZyIV0FiKKfffO-m6xLkJfn_R1qoaBKt1JVQewfLQ-5SXAQ8buUAGe20r_tCOhHC4WZHi_t-wGBj3VvhV2sMthfSG8UpRDxUs4OLWC9wWhwRPP02ueeMQFjPYb3SGhMXlpNxwELmxox4cKaY0pCxSh-DSzrcC9SdwRMvQPHgvOtN_xdqyWDQhH3PsU6EdhSkgdC1CIoTSxkJt5RpOJBnoqEXwOYIBJ127yTHhwbWe2OifwD-WLnchgcFpj3eDDyJCN0WJO3jaOJKQguo3Hshi6Hs1aXf50E2k472XFult2TOWyyOWitUMzMvZT5Ch2wdwAAAAGpD8oQAA")
+STRING1 = getenv("STRING_SESSION", "")
 BANNED_USERS = filters.user()
 adminlist = {}
 lyrical = {}
